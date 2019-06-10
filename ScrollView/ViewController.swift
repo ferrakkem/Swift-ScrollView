@@ -38,7 +38,7 @@ class ViewController: UIViewController {
             imageView.frame = CGRect(x: newX - 75, y: (scrollView.frame.size.height / 2) - 75, width: 150, height: 150)
         }
         scrollView.clipsToBounds = false
-        scrollView.backgroundColor =UIColor.white
+        scrollView.backgroundColor = UIColor.white
         scrollView.contentSize = CGSize(width: contentWidth, height: view.frame.size.height)
         
     }
